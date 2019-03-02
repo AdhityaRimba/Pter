@@ -1,15 +1,18 @@
 # Pterodactyl Panel Installer
-Installing & Upgrading Pterodactyl:
-1. Unzip the scripts
-2. Upload install.sh to your root directory (/root)
-3. Log into SSH as root and do
-Code:
-chmod u+x install.sh
-Code:
-./install.sh
-4. Answer the prompted questions
+
+# Installing & Upgrading Pterodactyl
+1. un "cd .."
+2.Run "cd home"
+3.Run "git clone https://github.com/AdhityaRimba/Pter.git"
+4.Run "cd Pter"
+5.Run "chmod u+x install.sh"
+6.Run "./install.sh"
+7.Answer the prompted questions
 
 # Run After Installation
-1. cd /srv/daemon
-2. Paste the generated command from the panel
-3. service wings restart
+1.Reopen Your VNC/Putty
+2.Type "cd /srv/daemon"
+3.Run "npm install -g forever"
+4.Run "forever start src/index.js"
+(To stop the daemon use "forever stop src/index.js")
+5.Run "service wings restart"
