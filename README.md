@@ -1,7 +1,7 @@
 # Pterodactyl Panel Installer
 <br>
 # Installing & Upgrading Pterodactyl<br>
-1.Run "> cd .."<br>
+1.Run "cd .."<br>
 2.Run "cd home"<br>
 3.Run "git clone https://github.com/AdhityaRimba/Pter.git"<br>
 4.Run "cd Pter"<br>
